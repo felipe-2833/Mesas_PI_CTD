@@ -1,6 +1,6 @@
 //criar função microondas;
 //criar dois parametros: comida e tempoPadão;
-//estruturar 5 comidas, com 5 tempos padões;
+//estruturar em if ternario as 5 comidas, com 5 tempos padões;
 //criar if's para as condições;
 //colocar console.log  "Prato pronto, bom apetite!!!". no final;
 
