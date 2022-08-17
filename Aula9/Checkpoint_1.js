@@ -1,3 +1,4 @@
+
 //criar função microondas;
 //criar dois parametros: comida e tempoPadão;
 //estruturar em if ternario as 5 comidas, com 5 tempos padões;
