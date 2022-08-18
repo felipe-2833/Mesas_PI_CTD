@@ -6,7 +6,9 @@
 //colocar console.log  "Prato pronto, bom apetite!!!". no final;
 
 function microondas (comida,tempo){
+
     let tempoPadão;
+    
     switch (comida){
         case 1:
         case 'Pipoca':
