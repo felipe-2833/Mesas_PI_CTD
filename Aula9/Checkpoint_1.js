@@ -8,22 +8,27 @@
 function microondas (comida,tempo){
     let tempoPadão;
     switch (comida){
+        case 1:
         case 'Pipoca':
             tempoPadão = 10;
             break;
         
+        case 2:
         case 'Macarrão':
             tempoPadão = 8;
             break;
         
+        case 3:
         case 'Carne':
             tempoPadão = 15;
             break;
 
+        case 4:
         case 'Feijão':
              tempoPadão = 12;
              break;
 
+        case 5:
         case 'Brigadeiro':
             tempoPadão = 12;
             break;
@@ -47,5 +52,5 @@ function microondas (comida,tempo){
     return microondas
 }
 
-microondas('Carne',45);
+microondas('pipoca',9);
 console.log( "Prato pronto, bom apetite!!!");
