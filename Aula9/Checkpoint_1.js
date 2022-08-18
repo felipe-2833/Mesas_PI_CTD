@@ -7,52 +7,52 @@
 
 function microondas (comida,tempo){
 
-    let tempoPadao;
+    let tempoPadrao;
 
     switch (comida){
         case 1:
         case 'Pipoca':
-            tempoPadao = 10;
+            tempoPadrao = 10;
             break;
         
         case 2:
         case 'Macarrao':
-            tempoPadao = 8;
+            tempoPadrao = 8;
             break;
         
         case 3:
         case 'Carne':
-            tempoPadao = 15;
+            tempoPadrao = 15;
             break;
 
         case 4:
         case 'Feijão':
-             tempoPadao = 12;
+             tempoPadrao = 12;
              break;
 
         case 5:
         case 'Brigadeiro':
-            tempoPadao = 12;
+            tempoPadrao = 12;
             break;
 
         default:
             console.log("Prato inexistente");
     }
 
-    if (tempo >= tempoPadao * 2 && tempo < tempoPadao * 3){
+    if (tempo >= tempoPadrao * 2 && tempo < tempoPadrao * 3){
         console.log('A comida queimou.');
     }
 
-    else if (tempo < tempoPadao){
+    else if (tempo < tempoPadrao){
         console.log("Tempo insuficiente.");
     }
 
-    else if (tempo >= tempoPadao * 3){
+    else if (tempo >= tempoPadrao * 3){
         console.log('KABOOOM!!!');
     }
 
     return microondas
 }
 
-microondas('Pipoca',9);
+microondas(1,30);
 console.log( "Prato pronto, bom apetite!!!");
