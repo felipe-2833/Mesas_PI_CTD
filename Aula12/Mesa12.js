@@ -1,5 +1,5 @@
-const alicia = [23, 69, 32];
-const bob = [12, 67, 43];
+const TiagoVentura = [55, 69, 33];
+const AfonsoPadilha = [24, 15, 63];
 
 function encontrarGanhador (a, b) {
     let pontosPrimeiroParticipante = 0;
@@ -20,10 +20,10 @@ function encontrarGanhador (a, b) {
     }
     let resultado
     if(pontosPrimeiroParticipante > pontosSegundoParticipante){
-         resultado = 'alicia'
+         resultado = 'Tiago Ventura'
     }
     else if(pontosPrimeiroParticipante < pontosSegundoParticipante){
-        resultado = 'bob'
+        resultado = 'Afonso Padilha'
     }
     else{
         resultado = 'nenhum dos dois, deu empate'
@@ -32,4 +32,4 @@ function encontrarGanhador (a, b) {
     return resultado
 
 }
-console.log('O ganhador é: ' + encontrarGanhador (alicia, bob));
+console.log('O ganhador é: ' + encontrarGanhador (TiagoVentura , AfonsoPadilha));
