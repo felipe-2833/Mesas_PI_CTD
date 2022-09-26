@@ -15,9 +15,8 @@ ListaAlunos2 = [Aluno6,Aluno7,Aluno8,Aluno9,Aluno10];
 
 curso.listaEstudantes = ListaAlunos2;
 
-let Aluno11 = new Alunos('Gabriela',11,[9,9,7,9.4]);
 
-curso.addAlunos(Aluno11);
+curso.addAlunos('Gabriela',11,[9,9,7,9.4]);
 console.log(curso.listaEstudantes);
 console.log(curso.aprovacao(curso.listaEstudantes[5]));
 console.log(curso.listaAprovacao(curso.listaEstudantes));

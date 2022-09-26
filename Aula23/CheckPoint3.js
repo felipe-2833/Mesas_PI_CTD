@@ -12,8 +12,8 @@ const curso = {
     listaEstudantes: listAlunos,
 
     // Passo 4
-    addAlunos: function(novoAluno){
-        this.listaEstudantes.push(novoAluno)
+    addAlunos: function(nome,qtdFaltas,notas){
+        this.listaEstudantes.push( new Alunos(nome,qtdFaltas,notas))
     },
 
     // Passo 5
@@ -42,9 +42,7 @@ const curso = {
 
 };
 
-let Aluno5 = new Alunos('Gustavo',5,[6,6,7,8]);
-
-//curso.addAlunos(Aluno5);
+//curso.addAlunos('Gustavo',5,[6,6,7,8]);
 //console.log(curso.listaEstudantes);
 //console.log(curso.aprovacao(curso.listaEstudantes[5]));
 //console.log(curso.listaAprovacao(curso.listaEstudantes));
